@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PutioKit/PutioKit.git", :branch => "orta", :commit => "HEAD" }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.8'
+  s.tvos.deployment_target = '9.0'
   s.ios.frameworks  = 'UIKit'
   s.osx.framework   = 'CoreServices'
   s.requires_arc = true

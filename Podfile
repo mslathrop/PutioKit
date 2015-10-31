@@ -14,3 +14,8 @@ target :'PutioKit for Mac' do
   platform :osx, '10.8'
   import_pods
 end
+
+target :'PutioKit for tvOS' do
+  platform :tvos, '9.0'
+  import_pods
+end
